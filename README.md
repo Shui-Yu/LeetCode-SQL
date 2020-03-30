@@ -9,4 +9,4 @@
 | 5  | __180.__ Consecutive Numbers   | Medium     | Subquery, Window function, Join         |[Sol](180-Consecutive-Numbers.sql)          |
 | 6  | __181.__ Employees Earning More Than Their Managers | Easy | Join |[Sol](181-Employees-Earning-More-Than-Their-Managers.sql)|
 | 7  | __182.__ Duplicate Emails      | Easy    | Group by, Having         |[Sol](182-Duplicate-Emails.sql)          |
-| 8  | __183.__ Customers Who Never Order | Easy    |          |[Sol]()          |
+| 8  | __183.__ Customers Who Never Order | Easy    | Join                 |[Sol](183-Customers-Who-Never-Order.sql) |
