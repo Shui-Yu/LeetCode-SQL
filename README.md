@@ -7,3 +7,4 @@
 | 3  | #177 Nth Highest Salary    | Medium     | Window function, Offset fetch           |[Sol](177-Nth-Highest-Salary.sql)          |
 | 4  | #178 Rank Scores           | Medium     | Window function                         |[Sol](178-Rank-Scores.sql)          |
 | 5  | #180 Consecutive Numbers   | Medium     | Subquery, Window function, Join         |[Sol](180-Consecutive-Numbers.sql)          |
+| 6  | #181 Employees Earning More Than Their Managers | Easy | Join |[Sol](181-Employees-Earning-More-Than-Their-Managers.sql)|
