@@ -11,3 +11,5 @@
 | 7  | __182.__ Duplicate Emails      | Easy    | Group by, Having         |[Sol](182-Duplicate-Emails.sql)          |
 | 8  | __183.__ Customers Who Never Order | Easy    | Join                 |[Sol](183-Customers-Who-Never-Order.sql) |
 | 9  | __184.__ Department Highest Salary | Medium  | Subquery, Window function              |[Sol](184-Department-Highest-Salary.sql) |
+| 9  | __184.__ Department Top Three Salaries| Hard    | Subquery, Window function           |[Sol](185-Department-Top-Three-Salaries.sql) |
+
