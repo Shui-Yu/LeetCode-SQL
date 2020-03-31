@@ -10,4 +10,4 @@
 | 6  | __181.__ Employees Earning More Than Their Managers | Easy | Join |[Sol](181-Employees-Earning-More-Than-Their-Managers.sql)|
 | 7  | __182.__ Duplicate Emails      | Easy    | Group by, Having         |[Sol](182-Duplicate-Emails.sql)          |
 | 8  | __183.__ Customers Who Never Order | Easy    | Join                 |[Sol](183-Customers-Who-Never-Order.sql) |
-| 9  | __184.__ Department Highest Salary | Medium  | Join                 |[Sol](.sql) |
+| 9  | __184.__ Department Highest Salary | Medium  | Subquery, Window function              |[Sol](184-Department-Highest-Salary.sql) |
