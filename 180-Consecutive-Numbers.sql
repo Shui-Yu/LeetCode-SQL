@@ -9,7 +9,7 @@ FROM (
 WHERE previous = num and num = next;
 
 
--- Join
+-- JOIN
 SELECT DISTINCT l1.num consecutivenums
 FROM logs l1
 JOIN logs l2
