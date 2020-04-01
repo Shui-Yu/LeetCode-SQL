@@ -12,7 +12,7 @@ BEGIN
     );
 END
 
--- Offset fetch
+-- OFFSET FETCH
 CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
 BEGIN
     RETURN (
