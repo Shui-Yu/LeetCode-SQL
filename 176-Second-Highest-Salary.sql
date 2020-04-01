@@ -24,7 +24,7 @@ FROM (
 WHERE rank = 2;
 
 
--- Offset fetch
+-- OFFSET FETCH
 SELECT salary AS secondhighestsalary
 FROM employee
 ORDER BY salary DESC
