@@ -13,5 +13,5 @@
 | 9  | __184.__ Department Highest Salary | Medium  | Subquery, Window function(DENSE_RANK)              |[Sol](184-Department-Highest-Salary.sql) |
 | 10  | __185.__ Department Top Three Salaries| Hard    | Subquery, Window function(DENSE_RANK)           |[Sol](185-Department-Top-Three-Salaries.sql) |
 | 11  | __196.__ Delete Duplicate Emails| Easy    | [DELETE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-delete/)           |[Sol](196-Delete-Duplicate-Emails.sql) |
-| 12  | __197.__ Rising Temperature| Easy    | [DATEADD](https://www.w3schools.com/sql/func_sqlserver_dateadd.asp), JOIN, Subquery, Window function(LAG)          |[Sol](196-Delete-Duplicate-Emails.sql) |
+| 12  | __197.__ [Rising Temperature](https://leetcode.com/problems/rising-temperature/)| Easy    | [DATEADD](https://www.w3schools.com/sql/func_sqlserver_dateadd.asp), JOIN, Subquery, Window function(LAG)          |[Sol](196-Delete-Duplicate-Emails.sql) |
 
