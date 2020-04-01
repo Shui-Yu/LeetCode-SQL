@@ -4,7 +4,7 @@
 |----|----------------------------|------------|-----------------------------------------|----------|
 | 1  | __175.__ Combine Two Tables    | Easy       | JOIN                                    |[Sol](175-Combine-Two-Tables.sql)      |
 | 2  | __176.__ Second Highest Salary | Easy       | Subquery, [Window function](https://www.sqlservertutorial.net/sql-server-window-functions/)([DENSE_RANK](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-dense_rank-function/)), [OFFSET FETCH](https://www.sqlservertutorial.net/sql-server-basics/sql-server-offset-fetch/) |[Sol](176-Second-Highest-Salary.sql)           |
-| 3  | __177.__ Nth Highest Salary    | Medium     | Window function(Rank), OFFSET FETCH          |[Sol](177-Nth-Highest-Salary.sql)          |
+| 3  | __177.__ Nth Highest Salary    | Medium     | Window function(DENSE_RANK), OFFSET FETCH          |[Sol](177-Nth-Highest-Salary.sql)          |
 | 4  | __178.__ Rank Scores           | Medium     | Window function([LAG](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-lag-function/), [LEAD](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-lead-function/))                         |[Sol](178-Rank-Scores.sql)          |
 | 5  | __180.__ Consecutive Numbers   | Medium     | Subquery, Window function, JOIN         |[Sol](180-Consecutive-Numbers.sql)          |
 | 6  | __181.__ Employees Earning More Than Their Managers | Easy | JOIN |[Sol](181-Employees-Earning-More-Than-Their-Managers.sql)|
