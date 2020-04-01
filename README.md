@@ -10,8 +10,8 @@
 | 6  | __181.__ Employees Earning More Than Their Managers | Easy | JOIN |[Sol](181-Employees-Earning-More-Than-Their-Managers.sql)|
 | 7  | __182.__ Duplicate Emails      | Easy    | GROUP BY, HAVING         |[Sol](182-Duplicate-Emails.sql)          |
 | 8  | __183.__ Customers Who Never Order | Easy    | JOIN                |[Sol](183-Customers-Who-Never-Order.sql) |
-| 9  | __184.__ Department Highest Salary | Medium  | Subquery, Window function              |[Sol](184-Department-Highest-Salary.sql) |
-| 10  | __185.__ Department Top Three Salaries| Hard    | Subquery, Window function           |[Sol](185-Department-Top-Three-Salaries.sql) |
-| 11  | __196.__ Delete Duplicate Emails| Easy    | DELETE           |[Sol](196-Delete-Duplicate-Emails.sql) |
+| 9  | __184.__ Department Highest Salary | Medium  | Subquery, Window function(DENSE_RANK)              |[Sol](184-Department-Highest-Salary.sql) |
+| 10  | __185.__ Department Top Three Salaries| Hard    | Subquery, Window function(DENSE_RANK)           |[Sol](185-Department-Top-Three-Salaries.sql) |
+| 11  | __196.__ Delete Duplicate Emails| Easy    | [DELETE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-delete/)           |[Sol](196-Delete-Duplicate-Emails.sql) |
 | 12  | __197.__ Rising Temperature| Easy    | [DATEADD](https://www.w3schools.com/sql/func_sqlserver_dateadd.asp), JOIN, Subquery, Window function          |[Sol](196-Delete-Duplicate-Emails.sql) |
 
