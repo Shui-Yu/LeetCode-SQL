@@ -11,7 +11,7 @@ WITH client AS(
 )
 
 SELECT request_at AS day,
-       CAST(AVG(CASE WHEN status = 'completed' then 0
+       CAST(AVG(CASE WHEN status = 'completed' THEN 0
                 ELSE 1.0 END) AS DECIMAL(3,2)) AS 'cancellation rate'   
 FROM client c
 JOIN driver d
