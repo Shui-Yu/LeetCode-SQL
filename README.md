@@ -18,6 +18,5 @@
 | 14  | __511.__ [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)| Easy    | GROUP BY         |[Sol](511-Game-Play-Analysis-I.sql) |
 | 15  | __512.__ [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/)| Easy    | Subquery, JOIN, Window function(DENSE_RANK)         |[Sol](512-Game-Play-Analysis-II.sql) |
 | 16  | __534.__ [Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/)| Medium    | Window function(SUM)         |[Sol](534-Game-Play-Analysis-III.sql) |
-| 17  | __550.__ [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)| Medium    | CTE, Window function(LEAD), DECIMAL         |[Sol](550-Game-Play-Analysis-IV.sql) |
-
-550-Game-Play-Analysis-IV.sql
+| 17  | __550.__ [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)| Medium    | CTE, Window function(LEAD), DATEADD, DECIMAL         |[Sol](550-Game-Play-Analysis-IV.sql) |
+| 18  | __569.__ [Median Employee Salary](https://leetcode.com/problems/median-employee-salary/)| Hard    |   |[Sol]() |
