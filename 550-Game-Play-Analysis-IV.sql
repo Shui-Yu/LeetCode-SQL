@@ -7,7 +7,7 @@ WITH tb1 AS(
      tb2 AS(    
     SELECT player_id 
     FROM tb1
-    WHERE dateadd(day,1, first_date) = lead_date)
+    WHERE DATEADD(day,1, first_date) = lead_date)
 
 SELECT CAST(COUNT(DISTINCT player_id)*1.0/(SELECT COUNT(DISTINCT player_id) FROM activity) AS DECIMAL(10,2)) AS fraction
 FROM tb2;
