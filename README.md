@@ -15,4 +15,4 @@
 | 11  | __196.__ [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)| Easy    | [DELETE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-delete/)           |[Sol](196-Delete-Duplicate-Emails.sql) |
 | 12  | __197.__ [Rising Temperature](https://leetcode.com/problems/rising-temperature/)| Easy    | [DATEADD](https://www.w3schools.com/sql/func_sqlserver_dateadd.asp), JOIN, Subquery, Window function(LAG)          |[Sol](197-Rising-Temperature.sql) |
 | 13  | __262.__ [Trips and Users](https://leetcode.com/problems/trips-and-users/)| Hard    | [CTE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-cte/), [CASE](https://www.sqlservertutorial.net/sql-server-basics/sql-server-case/), [CAST](https://www.sqlservertutorial.net/sql-server-system-functions/sql-server-cast-function/), [DECIMAL](https://www.sqlservertutorial.net/sql-server-basics/sql-server-decimal/)      |[Sol](262-Trips-and-Users.sql) |
-
+| 14  | __511.__ [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)| Easy    | GROUP BY         |[Sol](511-Game-Play-Analysis-I.sql) |
