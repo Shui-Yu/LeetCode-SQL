@@ -3,7 +3,7 @@ SELECT MAX(Salary) as SecondHighestSalary
 FROM Employee
 WHERE Salary < (SELECT MAX(Salary) FROM Employee);
 
--- LIMIT OFFSET (LIMIT is available in MySQL, but not in SQL Server)
+-- MySQL: LIMIT OFFSET (LIMIT is available in MySQL, but not in SQL Server)
 SELECT
     (SELECT DISTINCT Salary
      FROM Employee
