@@ -4,6 +4,7 @@
 |----|----------------------------|------------|-----------------------------------------|----------|
 | 1  | __175.__ [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)    | Easy       | JOIN                                    |[Sol](175-Combine-Two-Tables.sql)      |
 | 2  | __176.__ [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Easy       | Subquery, [Window function](https://www.sqlservertutorial.net/sql-server-window-functions/)([DENSE_RANK](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-dense_rank-function/)), [OFFSET FETCH](https://www.sqlservertutorial.net/sql-server-basics/sql-server-offset-fetch/) |[Sol](176-Second-Highest-Salary.sql)           |
+
 | 3  | __177.__ [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)    | Medium     | Window function(DENSE_RANK), OFFSET FETCH          |[Sol](177-Nth-Highest-Salary.sql)          |
 | 4  | __178.__ [Rank Scores](https://leetcode.com/problems/rank-scores/)           | Medium     | Window function(DENSE_RANK)                        |[Sol](178-Rank-Scores.sql)          |
 | 5  | __180.__ [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)   | Medium     | Subquery, Window function([LAG](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-lag-function/), [LEAD](https://www.sqlservertutorial.net/sql-server-window-functions/sql-server-lead-function/)) , JOIN         |[Sol](180-Consecutive-Numbers.sql)          |
