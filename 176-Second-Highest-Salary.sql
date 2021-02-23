@@ -1,32 +1,18 @@
 -- Subquery
-SELECT MAX(salary) as secondhighestsalary
-FROM employee
-WHERE salary < (SELECT MAX(salary) FROM employee);
+SELECT MAX(Salary) as SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary) FROM Employee);
 
-
--- Window function
--- DENSE_RANK()
-SELECT AVG(salary) secondhighestsalary
-FROM (
-    SELECT salary,
-      DENSE_RANK() OVER (ORDER BY salary DESC) rank
-    FROM employee
-    ) tb
-WHERE rank = 2;
-
--- ROW_NUMBER()
-SELECT salary secondhighestsalary
-FROM (
-    SELECT salary,
-      ROW_NUMBER() OVER (ORDER BY salary DESC) rank
-    FROM employee
-    ) tb
-WHERE rank = 2;
-
-
--- OFFSET FETCH
-SELECT salary AS secondhighestsalary
-FROM employee
-ORDER BY salary DESC
-OFFSET 1 ROW
-FETCH NEXT 1 ROW ONLY;
+-- LIMIT OFFSET (LIMIT is available in MySQL, but not in SQL Server)
+SELECT
+    (SELECT DISTINCT Salary
+     FROM Employee
+     ORDER BY Salary DESC
+     LIMIT 1 OFFSET 1) AS SecondHighestSalary;
+     
+SELECT
+    IFNULL(
+      (SELECT DISTINCT Salary
+       FROM Employee
+       ORDER BY Salary DESC
+       LIMIT 1 OFFSET 1), NULL) AS SecondHighestSalary;
